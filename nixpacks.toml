@@ -42,7 +42,7 @@ JWT_SECRET = "Your JWT secret key"
 FRONTEND_URL = "Your frontend URL"
 
 # Optional environment variables with defaults
-[variables.optional]
+[variables.required]
 NODE_ENV = "production"
 PORT = "5000"
 JWT_EXPIRE = "30d"
