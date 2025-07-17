@@ -1,0 +1,4 @@
+# nixapack.toml
+
+[start]
+cmd = "gunicorn 
