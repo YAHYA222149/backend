@@ -1,10 +1,2 @@
-[phases.build]
-nixPkgs = ["nodejs_18"]
-
-[phases.install]
-cmds = [
-    "npm ci --only=production"
-]
-
 [start]
 cmd = "node server.js"
